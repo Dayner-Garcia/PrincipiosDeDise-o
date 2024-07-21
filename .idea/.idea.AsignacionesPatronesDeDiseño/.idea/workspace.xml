@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0562af33-427b-4b61-945e-83953790c632" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/AsignacionesPatronesDeDiseño.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AsignacionesPatronesDeDiseño.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LSP/Class/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AplicandoLSP/Class/Course.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LSP/Interfaces/ICourse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AplicandoLSP/Interfaces/ICourse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LSP/LSP.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AplicandoLSP/AplicandoLSP.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="0bed5040-89ea-48af-9390-d132de80480d" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +34,6 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "LSP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
