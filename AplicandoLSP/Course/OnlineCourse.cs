@@ -1,6 +1,9 @@
 namespace LSP.Class;
 
-public class OnlineCourse
+public class OnlineCourse : Course
 {
-    
+    public override void Subscribe(Student.Student std)
+    {
+        Console.WriteLine($"");
+    }
 }
