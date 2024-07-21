@@ -1,4 +1,6 @@
-namespace LSP.Class;
+using LSP.Student;
+
+namespace AplicandoLSP.Course;
 
 public class HybridCourse : Course
 {
@@ -10,8 +12,10 @@ public class HybridCourse : Course
         this._offline = offlineCourse;
         this._online = onlineCourse;
     }
-    public override void Subscribe(Student.Student std)
+    public override void Subscribe(Student std)
     {
-        Console.WriteLine($"");
+        _online.Subscribe(std);
+        _offline.Subscribe(std);
+        Console.WriteLine($"Student {std.Name} suscrito al curso hybrido: {Title}");
     }
 }
