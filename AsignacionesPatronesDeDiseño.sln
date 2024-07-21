@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AplicandoSRP", "AplicandoSRP", "{F82C66EA-295C-4390-A178-4559B3A4505C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicandoSRP", "AplicandoSRP\AplicandoSRP.csproj", "{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
