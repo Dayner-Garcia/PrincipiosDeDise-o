@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LSP", "LSP", "{1037EEAF-B427-4400-9B65-738DC51FFBF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{2F6CA021-35B1-472F-BEEA-4640DF56D96D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicandoLSP", "AplicandoLSP\AplicandoLSP.csproj", "{2F6CA021-35B1-472F-BEEA-4640DF56D96D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
