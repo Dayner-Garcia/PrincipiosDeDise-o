@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AplicandoSRP", "AplicandoSRP", "{F82C66EA-295C-4390-A178-4559B3A4505C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LSP", "LSP", "{1037EEAF-B427-4400-9B65-738DC51FFBF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{2F6CA021-35B1-472F-BEEA-4640DF56D96D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,12 +10,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE} = {F82C66EA-295C-4390-A178-4559B3A4505C}
+		{2F6CA021-35B1-472F-BEEA-4640DF56D96D} = {1037EEAF-B427-4400-9B65-738DC51FFBF5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6CA021-35B1-472F-BEEA-4640DF56D96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6CA021-35B1-472F-BEEA-4640DF56D96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6CA021-35B1-472F-BEEA-4640DF56D96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6CA021-35B1-472F-BEEA-4640DF56D96D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
