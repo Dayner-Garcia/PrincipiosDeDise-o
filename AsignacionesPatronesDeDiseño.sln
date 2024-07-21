@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISP", "ISP", "{0F0BC971-5C33-4068-80D1-6920629B954B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AplicandoISP", "AplicandoISP", "{0F0BC971-5C33-4068-80D1-6920629B954B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP", "ISP\ISP.csproj", "{39D48482-BAAA-4293-85E6-71EBBCF43BD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicandoISP", "AplicandoISP\AplicandoISP.csproj", "{39D48482-BAAA-4293-85E6-71EBBCF43BD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
