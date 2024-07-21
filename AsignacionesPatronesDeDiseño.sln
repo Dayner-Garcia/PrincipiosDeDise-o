@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AplicandoSRP", "AplicandoSRP", "{F82C66EA-295C-4390-A178-4559B3A4505C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SRP\SRP.csproj", "{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AplicandoOCP", "AplicandoOCP", "{BFA9AB9F-A90A-4DC8-A234-C716E0D5CD7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP", "OCP\OCP.csproj", "{40B8BA59-8010-47E4-A115-9A8F0DEE3E9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicandoOCP", "AplicandoOCP\AplicandoOCP.csproj", "{40B8BA59-8010-47E4-A115-9A8F0DEE3E9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,14 +10,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE} = {F82C66EA-295C-4390-A178-4559B3A4505C}
 		{40B8BA59-8010-47E4-A115-9A8F0DEE3E9E} = {BFA9AB9F-A90A-4DC8-A234-C716E0D5CD7D}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3593DE5-DDB8-4AE5-BE61-C89C9BEAC2AE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{40B8BA59-8010-47E4-A115-9A8F0DEE3E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{40B8BA59-8010-47E4-A115-9A8F0DEE3E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40B8BA59-8010-47E4-A115-9A8F0DEE3E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
