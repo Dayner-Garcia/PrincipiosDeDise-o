@@ -1,0 +1,139 @@
+Index: AplicandoLSP/Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace LSP;\r\n\r\npublic class Program\r\n{\r\n    \r\n}
+===================================================================
+diff --git a/AplicandoLSP/Program.cs b/AplicandoLSP/Program.cs
+--- a/AplicandoLSP/Program.cs	
++++ b/AplicandoLSP/Program.cs	
+@@ -2,5 +2,8 @@
+ 
+ public class Program
+ {
+-    
++    public static void Main(string srgs)
++    {
++        
++    }
+ }
+\ No newline at end of file
+Index: AplicandoLSP/Course/OnlineCourse.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace LSP.Class;\r\n\r\npublic class OnlineCourse\r\n{\r\n    \r\n}
+===================================================================
+diff --git a/AplicandoLSP/Course/OnlineCourse.cs b/AplicandoLSP/Course/OnlineCourse.cs
+--- a/AplicandoLSP/Course/OnlineCourse.cs	
++++ b/AplicandoLSP/Course/OnlineCourse.cs	
+@@ -1,6 +1,10 @@
+-namespace LSP.Class;
+-
+-public class OnlineCourse
++namespace AplicandoLSP.Course
+ {
+-    
++    public class OnlineCourse : Course
++    {
++        public override void Subscribe(Student.Student std)
++        {
++            Console.WriteLine($"Student {std.Name} Subscrito al curso online: {Title}: ");
++        }
++    }
+ }
+\ No newline at end of file
+Index: AplicandoLSP/Course/OfflineCourse.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace LSP.Class;\r\n\r\npublic class OfflineCourse\r\n{\r\n    \r\n}
+===================================================================
+diff --git a/AplicandoLSP/Course/OfflineCourse.cs b/AplicandoLSP/Course/OfflineCourse.cs
+--- a/AplicandoLSP/Course/OfflineCourse.cs	
++++ b/AplicandoLSP/Course/OfflineCourse.cs	
+@@ -1,6 +1,11 @@
+-namespace LSP.Class;
+-
+-public class OfflineCourse
++namespace AplicandoLSP.Course
+ {
+-    
++    public class OfflineCourse : Course
++    {
++        public override void Subscribe(Student.Student std)
++        {
++            Console.WriteLine($"Student{std.StudentId} {std.Name} Subscrito al curso offline: {Title}: ");
++
++        }
++    }
+ }
+\ No newline at end of file
+Index: AplicandoLSP/Student/Student.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace LSP.Student;\r\n\r\npublic class Student\r\n{\r\n    \r\n}
+===================================================================
+diff --git a/AplicandoLSP/Student/Student.cs b/AplicandoLSP/Student/Student.cs
+--- a/AplicandoLSP/Student/Student.cs	
++++ b/AplicandoLSP/Student/Student.cs	
+@@ -1,6 +1,8 @@
+-namespace LSP.Student;
+-
+-public class Student
+-{
+-    
++namespace AplicandoLSP.Student
++{
++    public class Student
++    {
++        public int StudentId { get; set; }
++        public string Name { get; set; }
++    }
+ }
+\ No newline at end of file
+Index: AplicandoLSP/Course/HybridCourse.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace LSP.Class;\r\n\r\npublic class HybridCourse\r\n{\r\n    \r\n}
+===================================================================
+diff --git a/AplicandoLSP/Course/HybridCourse.cs b/AplicandoLSP/Course/HybridCourse.cs
+--- a/AplicandoLSP/Course/HybridCourse.cs	
++++ b/AplicandoLSP/Course/HybridCourse.cs	
+@@ -1,6 +1,20 @@
+-namespace LSP.Class;
+-
+-public class HybridCourse
++namespace AplicandoLSP.Course
+ {
+-    
++    public class HybridCourse : Course
++    {
++        private OnlineCourse _online;
++        private OfflineCourse _offline;
++
++        public HybridCourse(OnlineCourse onlineCourse, OfflineCourse offlineCourse)
++        {
++            this._online = onlineCourse;
++            this._offline = offlineCourse;
++        }
++        public override void Subscribe(Student.Student std)
++        {
++            _online.Subscribe(std);
++            _offline.Subscribe(std);
++            Console.WriteLine($"Student {std.StudentId} {std.Name} Suscrito al curso hybrud: {Title}");
++        }
++    }
+ }
+\ No newline at end of file
+Index: AplicandoLSP/Course/Course.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace LSP.Class\r\n{\r\n    public abstract class Course\r\n    {\r\n        public int CourseId { get; set; }\r\n        public string Title { get; set; }\r\n\r\n        public abstract void Subscribe(Student.Student std);\r\n    }\r\n}
+===================================================================
+diff --git a/AplicandoLSP/Course/Course.cs b/AplicandoLSP/Course/Course.cs
+--- a/AplicandoLSP/Course/Course.cs	
++++ b/AplicandoLSP/Course/Course.cs	
+@@ -1,4 +1,4 @@
+-namespace LSP.Class
++namespace AplicandoLSP.Course
+ {
+     public abstract class Course
+     {

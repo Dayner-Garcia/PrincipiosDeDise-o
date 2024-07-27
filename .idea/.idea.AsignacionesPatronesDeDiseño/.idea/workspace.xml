@@ -9,19 +9,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08e927c6-98c7-4d1b-85cb-1d465bf6a957" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/.vs/AsignacionesPatronesDeDiseño/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/AsignacionesPatronesDeDiseño/v17/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/AsignacionesPatronesDeDiseño/v17/DocumentLayout.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AplicandoISP/AplicandoISP/AplicandoISP.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AplicandoISP/AplicandoISP/Document/Document.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AplicandoISP/AplicandoISP/Interfaces/IPrint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AplicandoISP/AplicandoISP/Interfaces/IScan.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AplicandoISP/AplicandoISP/Prints/MultiFuntionPrinter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AplicandoISP/AplicandoISP/Prints/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AplicandoISP/AplicandoISP/Prints/SimplePrinter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_3_28_p__m___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_3_28_p__m___Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AsignacionesPatronesDeDiseño.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AsignacionesPatronesDeDiseño.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_53_p__m___Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_53_p_ m__[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_53_p_ m__[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p__m___Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p__m___Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p_ m__[Changes]/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p_ m__[Changes]/.futdcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p_ m__[Changes]/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p_ m__[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p_ m__[Changes]1/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p_ m__[Changes]1/.futdcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p_ m__[Changes]1/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_6_54_p_ m__[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_7_03_p__m___Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_7_03_p_ m__[Changes]/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_7_03_p_ m__[Changes]/.futdcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_7_03_p_ m__[Changes]/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_7_03_p_ m__[Changes]/asignacionespatronesdediseño.metadata.v7.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_7_03_p_ m__[Changes]/asignacionespatronesdediseño.projects.v7.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_7_03_p_ m__[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_7_42_p__m___Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_7_2024_7_42_p_ m__[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_7_2024_9_40_p__m___Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsignacionesPatronesDeDiseño/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_7_2024_9_40_p_ m__[Changes]/shelved.patch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,27 +60,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.AplicandoISP.executor": "Run",
-    ".NET Project.AplicandoOCP.executor": "Run",
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ISP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.AplicandoISP.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.AplicandoOCP.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ISP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\daine\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\daine\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\daine\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\daine\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\daine\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\daine\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.AplicandoISP">
     <configuration name="AplicandoISP" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -117,7 +129,7 @@
       <updated>1721590254552</updated>
       <workItem from="1721590256154" duration="28000" />
       <workItem from="1721600268349" duration="672000" />
-      <workItem from="1722044392760" duration="4002000" />
+      <workItem from="1722044392760" duration="4048000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -135,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721600337963</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".">
+      <option name="closed" value="true" />
+      <created>1722048456479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722048456479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
